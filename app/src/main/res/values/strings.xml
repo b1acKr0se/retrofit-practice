@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">RetrofitPractice</string>
-
+    <string name="app_name">Retrofit in action</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
