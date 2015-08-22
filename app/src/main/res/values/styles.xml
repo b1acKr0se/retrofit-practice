@@ -19,4 +19,14 @@
         <item name="rippleColor">@android:color/transparent</item>
     </style>
 
+    <style name="CardViewStyle">
+        <item name="android:layout_marginTop">@dimen/card_margin</item>
+        <item name="android:layout_marginStart">@dimen/card_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_margin</item>
+        <item name="android:elevation">@dimen/elevation_xxsmall</item>
+        <item name="pressedTranslationZ">@dimen/elevation_medium</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+    </style>
+
 </resources>
