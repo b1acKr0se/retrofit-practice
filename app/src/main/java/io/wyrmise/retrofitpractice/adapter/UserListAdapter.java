@@ -42,8 +42,7 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
         holder.name.setText(user.getName());
         holder.follower.setText(user.getFollowers() + " followers");
         holder.following.setText(user.getFollowing() + " following");
-        System.out.println("Image: " +user.getAvatar_url());
-        Picasso.with(context).load(user.getAvatar_url()).into(holder.image);
+        Picasso.with(context).load(user.getAvatarUrl()).into(holder.image);
         holder.itemView.setTag(user);
     }
 

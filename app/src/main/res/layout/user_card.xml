@@ -90,7 +90,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BOOKMARK"
-                android:layout_marginStart="@dimen/margin_medium"
                 android:textColor="@color/accent"
                 android:textSize="17sp" />
         </LinearLayout>
